@@ -1,0 +1,7 @@
+# Jenkins state and secrets live in the Docker volume.
+.env
+.env.*
+!.env.example
+jenkins_home/
+*.log
+.docker-client/
